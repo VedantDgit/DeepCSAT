@@ -56,8 +56,8 @@ st.write("Predict customer satisfaction score using selected order features.")
 col1, col2 = st.columns(2)
 
 with col1:
-    response_time = st.number_input("Response Time", min_value=0.0, step=1.0)
-    connected_handling_time = st.number_input("Connected Handling Time", min_value=0.0, step=1.0)
+    response_time = st.number_input("Response Time(in mins)", min_value=0.0, step=1.0)
+    connected_handling_time = st.number_input("Connected Handling Time(in mins)", min_value=0.0, step=1.0)
     item_price = st.number_input("Item Price", min_value=0.0, step=1.0)
 
 with col2:
